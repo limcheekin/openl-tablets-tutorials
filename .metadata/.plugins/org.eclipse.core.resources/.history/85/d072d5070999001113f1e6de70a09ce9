@@ -1,0 +1,11 @@
+package org.openl.tablets.tutorial1;
+public class Tutorial1DynamicMain {
+public static void main(String[] args) {
+//define the interface
+RuleEngineFactory<simple> rulesFactory =
+new RuleEngineFactory<Simple>("rules/TemplateRules.xls",
+Simple.class);
+Simple rules = rulesFactory.newInstance();
+rules.hello1(12);
+}
+}

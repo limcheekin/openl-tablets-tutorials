@@ -1,0 +1,14 @@
+package org.openl.tablets.tutorial1;
+
+import org.openl.rules.runtime.RuleEngineFactory;
+import static java.lang.System.out;
+
+public class Tutorial1DynamicMain {
+	public static void main(String[] args) {
+		// define the interface
+		RuleEngineFactory<HelloDynamic> rulesFactory = new RuleEngineFactory<HelloDynamic>(
+				"rules/TemplateRules.xls", HelloDynamic.class);
+		HelloDynamic rules = rulesFactory.makeInstance();
+		rules.hello1(12);
+	}
+}

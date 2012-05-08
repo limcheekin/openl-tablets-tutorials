@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="1067" localization="plugin" name="OpenL Tablets Studio Plug-in" project="org.openl.rules.webstudio" provider="OpenL Tablets"/>
+	<bundle bundleID="1065" localization="plugin" name="org.openl.tablets.tutorial1" project="org.openl.tablets.tutorial1"/>
+</map>
